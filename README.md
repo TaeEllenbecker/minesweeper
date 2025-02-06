@@ -1,2 +1,2 @@
 # Minesweeper
-A Minesweeper GUI application in FLTK for C++
+A Minesweeper application developed in FLTK for C++

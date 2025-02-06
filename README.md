@@ -1,21 +1,22 @@
 # Minesweeper
 
 A basic Minesweeper application made in FLTK C++
+- Includes algorithms to find mines, free spaces, number of bombs touching
 
-Requirements
-  - C++11 or higher
-  - FLTK (Fast Light Toolkit)
+# Requirements
+- C++11 or higher
+- FLTK (Fast Light Toolkit)
 
-Installation
+# Installation
 
 For FLTK installation instructions visit: https://github.com/fltk/fltk
 
 For C++
-  - Make sure compiler supports C++11 or higher
-	- GCC
-	- Clang
-	- MSVC (VS Code)
+- Make sure compiler supports C++11 or higher
+  - GCC
+  - Clang
+  - MSVC (VS Code)
 
 After downloading the source code:
-  - Build the program using: fltk-config --compile main.cpp
-  - Run the project: ./main
+- Build the program using: fltk-config --compile main.cpp
+- Run the project: ./main

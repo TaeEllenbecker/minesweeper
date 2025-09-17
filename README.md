@@ -18,5 +18,5 @@ For C++
   - MSVC (VS Code)
 
 After downloading the source code:
-- Build the program using: fltk-config --compile main.cpp
-- Run the project: ./main
+- Build the program using: g++ main.cpp -o minesweeper $(fltk-config --cxxflags --ldflags) -isysroot $(xcrun --show-sdk-path)
+- Run the project: ./minesweeper

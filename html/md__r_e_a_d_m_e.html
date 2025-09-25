@@ -113,8 +113,8 @@ Installation</h1>
 </li>
 </ul>
 <p>After downloading the source code:</p><ul>
-<li>Build the program using: fltk-config &ndash;compile main.cpp</li>
-<li>Run the project: ./main </li>
+<li>Build the program using: g++ main.cpp -o minesweeper $(fltk-config &ndash;cxxflags &ndash;ldflags) -isysroot $(xcrun &ndash;show-sdk-path)</li>
+<li>Run the project: ./minesweeper </li>
 </ul>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

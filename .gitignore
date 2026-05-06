@@ -4,3 +4,6 @@ html/
 latex/
 ./latex
 latex/.
+minesweeper.*
+minesweeper
+
